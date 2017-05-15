@@ -1,0 +1,495 @@
+<script>
+function changeimg(url,e) {
+ document.getElementById("img").src = url;
+ var nodes = document.getElementById("thumb_img");
+ var img_child = nodes.children; //id名「thumb_img」配下の子要素を取得
+ for (i = 0; i < img_child.length; i++) { //要素の数ループさせる
+  img_child[i].classList.remove('active') //要素に付与されているすべてのclass名「active」を削除する
+ }
+ e.classList.add('active'); //クリック（タップ）した要素にclass名「active」を付与する
+}
+</script>
+
+<body onload="setupDes();">
+<h3>レギュラーのぼり　幅600mm×高さ1,800mm　【印刷用データ支給（.ai形式）】</h3>
+<p>一番よく見られる一般的なサイズの幅600mm×高さ1,800mmです。店舗周りにはピッタリ！</p>
+
+<!--納期のお知らせプログラムはここから-->
+<div id="nouki_box">
+<table width="680" align="center" cellpadding="5" cellspacing="1" bgcolor="#FF3300"　bgcolor="#666666">
+<tr>
+<td height="15" colspan="2" align="center" bgcolor="#FF3300"><span class="chumon_nouki">出荷日目安（銀振、ＮＰ後払いご利用以外）</span>　　<A onClick="javascript:InputWindow('/goods_img/112/design/otodoke.jpg?utm_source=Souryo&utm_medium=Souryo1&utm_campaign=150604',680,680);"><span class="otodoke">≫お届け日の目安</span></a></td>
+</tr>
+<tr>
+<td width="680" height="15" align="center" bgcolor="#FFFFFF"><div class="chumon_hinichi">【通常便】…現在のご注文で16時までの受付完了… 
+<script langage="javascript">getEigyo(4,16,%%_holiday_%%);</script> 
+出荷</div></td>
+</tr>
+<tr>
+<td height="15" align="center" bgcolor="#FFFFFF"><div class="chumon_hinichi">【特急便】…現在のご注文で正午までの受付完了… 
+<script langage="javascript">getEigyo(2,12,%%_holiday_%%);</script> 
+出荷</div></td>
+</tr>
+</table>
+<div id="nouki_com">※データに不備や確認事項が発生した場合は上記のご納期対応はできかねますのでご了承下さい。<br />
+※銀行振込やNP後払いをご選択頂いた場合はご入金や与信確認にお時間が掛かる場合がございます。</div>
+</div>
+<!--納期のお知らせプログラムはここまで-->
+
+<div id="shohin2">
+<div id="shohin_img"><div id="content">
+  <div id="featured_img">
+    <img id="img" src="http://www.i-nobori.com/goods_img/112/design/60180_main01.png">
+  </div>
+  <div id="thumb_img" class="cf">
+    <img src="/goods_img/112/design/60180_01.png" alt="レギュラーのぼり" width="68" height="68" class="active" onMouseOver="changeimg('http://www.i-nobori.com/goods_img/112/design/60180_main01.png',this);">
+    <img src="/goods_img/112/design/60180_02.png" alt="設置イメージ" width="68" height="68" onMouseOver="changeimg('http://www.i-nobori.com/goods_img/112/design/60180_main02.png',this);">
+    <img src="/goods_img/112/design/60180_03.png" alt="制作例" width="68" height="68" onMouseOver="changeimg('http://www.i-nobori.com/goods_img/112/design/60180_main03.png',this);">
+    <img src="/goods_img/112/design/60180_04.png" alt="チチ" width="68" height="68" onMouseOver="changeimg('http://www.i-nobori.com/goods_img/112/design/60180_main04.png',this);">
+    <img src="/goods_img/112/design/60180_05.png" alt="生地" width="68" height="68" onMouseOver="changeimg('http://www.i-nobori.com/goods_img/112/design/60180_main05.png',this);">
+    <img src="/goods_img/112/design/60180_06.png" alt="棒袋" width="68" height="68" onMouseOver="changeimg('http://www.i-nobori.com/goods_img/112/design/60180_main06.png',this);">
+    <img src="/goods_img/112/design/60180_07.png" alt="変形カット" width="68" height="68" onMouseOver="changeimg('http://www.i-nobori.com/goods_img/112/design/60180_main07.png',this);">
+    <a href="#open10"><img src="/goods_img/112/design/60180_08.png" alt="サイズ比較" width="68" height="68"></a></div></div></div>
+<div id="shohin_right2">
+<div id="shohin_nyukou"><img src="/goods_img/112/design/nyuko02.gif"/></div>
+<span class="bold_akamoji">オリジナルのぼり期間限定特価キャンペーン中！<br />
+<br />
+</span>
+<dl>
+<dt>
+<p>サイズ</p>
+</dt>
+<dd>
+<p>幅600mm×高さ1,800mm</p>
+</dd>
+<dt>
+<p>印刷方法</p>
+</dt>
+<dd>
+<p>フルカラーダイレクト昇華印刷</p>
+</dd>
+<dt>
+<p>生地</p>
+</dt>
+<dd>
+<p>テトロンポンジ（ポリエステル100％）</p>
+</dd>
+<dt>
+<p>加工</p>
+</dt>
+<dd>
+<p>周囲ヒートカット</p>
+</dd>
+</dl>
+
+<!--オリジナルのぼりキャンペーン価格表ここから-->
+<div id="kakaku"> 
+
+<table width="360" cellpadding="0" cellspacing="1" bgcolor="#666666">
+<tr>
+<td width="169" height="25" align="center" valign="middle" bgcolor="#e8ecef"><p class="bold_akamoji">1種類のデザイン購入数</p></td>
+<td width="125" height="25" align="center" valign="middle" bgcolor="#e8ecef"><p>単価</p></td>
+<td width="118" height="25" align="center" valign="middle" bgcolor="#e8ecef"><p>税込</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>1枚～5枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>990円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>1,069円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>6枚～9枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">880円</span>→850円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>918円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>10枚～19枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">830円</span>→790円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>853円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>20枚～49枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">800円</span>→760円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>821円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>50枚～99枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">760円</span>→710円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>767円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>100枚～199枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">700円</span>→680円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>734円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>200枚～299枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">680円</span>→650円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>702円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>300枚～399枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">660円</span>→550円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>594円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>400枚～499枚</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">640円</span>→520円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>562円</p></td>
+</tr>
+<tr>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>500枚以上</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p><span style="text-decoration:line-through;">619円</span>&rarr;500円</p></td>
+<td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>540円</p></td>
+</tr>
+</table>
+</div>
+</div>
+<!--オリジナルのぼりキャンペーン価格表ここまで--> 
+
+<!--キャンペーン適応前の価格表ここから
+
+<div id="kakaku">
+  <table width="418" cellpadding="0" cellspacing="1" bgcolor="#666666">
+    <tr>
+      <td width="169" height="25" align="center" valign="middle" bgcolor="#e8ecef"><p class="bold_akamoji">1種類のデザイン購入数</p></td>
+      <td width="125" height="25" align="center" valign="middle" bgcolor="#e8ecef"><p>単価</p></td>
+      <td width="118" height="25" align="center" valign="middle" bgcolor="#e8ecef"><p>税込</p></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>1枚～4枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>980円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>1,058円</p></td>
+    </tr>
+<tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>5枚～9枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>880円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>950円</p></td>
+</tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>10枚～19枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>830円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>896円</p></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>20枚～49枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>800円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>864円</p></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>50枚～99枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>760円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>820円</p></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>100枚～199枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>700円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>756円</p></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>200枚～299枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>680円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>734円</p></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>300枚～399枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>660円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>712円</p></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>400枚～499枚</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>640円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>691円</p></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>500枚以上</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF" class="bold_akamoji"><p>619円</p></td>
+      <td height="25" align="center" valign="middle" bgcolor="#FFFFFF"><p>669円</p></td>
+    </tr>
+  </table>
+</div>
+--> 
+
+</div>
+</div>
+
+<!--キャンペーンのフォームアクションここから-->
+<FORM action="http://www.i-nobori.com/" method="POST" enctype="multipart/form-data" >
+<input type="hidden" name="MODE" value="g_page"  />
+<INPUT type="hidden" name="PHASE" value="complete">
+<input type="hidden" name="page_id" value="149384"  />
+<input type="hidden" name="shop_category_id" value="0"  />
+<!--キャンペーンのフォームアクションここまで--> 
+
+<!--キャンペーン前のフォームアクションここから
+
+<FORM action="http://www.i-nobori.com/" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="MODE" value="g_page"  />
+<INPUT type="hidden" name="PHASE" value="complete">
+<input type="hidden" name="page_id" value="58226"  />
+<input type="hidden" name="shop_category_id" value="0"  />
+キャンペーン前のフォームアクションここまで--> 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+<script type="text/javascript">
+$(function(){
+
+	var formNum = 6;
+
+	for(i=1;i<=formNum;i++){
+		$("input[class="+i+"]").click(function(){
+			var flag = $(this).prop("checked", true);
+			$("input[class="+$(this).prop("class")+"]").prop('checked', false);
+			if (flag){
+				$(this).prop('checked', true);
+			}
+		});
+	}
+
+});
+</script> 
+<br style= "clear: both;">
+<!--のぼりテンプレートここから-->
+
+<div id="tepm_title"><img src="/goods_img/112/design/template_bar.gif" /></div>
+<div id="temp">
+<div id="temp_button"><a href="/official/nobori_temp/600_1800_left.zip"><img src="/goods_img/112/design/temp_left.gif" border="0" /></a></div>
+<div id="temp_button"><a href="/official/nobori_temp/600_1800_right.zip"><img src="/goods_img/112/design/temp_right.gif" border="0" /></a></div>
+<div id="temp_button"><a href="/official/nobori_temp/600_1800_non.zip"><img src="/goods_img/112/design/temp_non.gif" border="0" /></a></div>
+<div id="temp_button2"><a href="/official/nobori_temp/600_1800_fukuro.zip"><img src="/goods_img/112/design/temp_fukuro.gif" border="0" /></a></div>
+</div>
+<div id="temp">
+<div id="temp_button"><a href="/official/nobori_temp/600_1800_henkei.zip" target="_blank"><img src="/goods_img/112/design/henkei.png" border="0" /></a></div>
+<div i="temp_button"></div>
+</div>
+<div id="dataguide"><a href="/info/riyo2.html"><img src="/goods_img/112/design/nyukoguide.gif" border="0" /></a></div>
+<!--のぼりテンプレートここまで--> 
+
+<!--のぼり仕様選択ここから-->
+
+<div id="shiyou_title">ご注文フォーム　※仕様をお選び下さい。</div>
+
+<!--チチ取り付け位置ここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■チチ取り付け位置</div>
+<div class="shiyou_sentaku">
+
+<label><input type="checkbox" class="1" id="1_1" name="goods_type_id" value="80135" />
+左チチ（標準仕様）</label><br />
+<label><input type="checkbox" class="1" id="1_2" name="goods_type_id" value="80136" />
+右チチ</label><br />
+<label><input type="checkbox" class="1" id="1_3" name="goods_type_id" value="80137" />
+チチ無し</label></div>
+
+</div>
+<div class="guide_img"><a href="#open01"><img src="/goods_img/112/design/guide-titi.gif" border="0" /></a></div>
+</div>
+<!--チチ取り付け位置ここまで--> 
+
+<!--チチ色ここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■チチの色について</div>
+<div class="shiyou_sentaku">
+<label><input type="checkbox" class="4" id="4_1" name="goods_option_id" value="" checked="checked" />
+白色（標準仕様）</label><br />
+<label><input type="checkbox" class="4" id="4_2" name="goods_option_id" value="446"  />
+黒色　<span class="bold_akamoji">1枚あたり+324円（税込）</span></label></div>
+</div>
+<div class="guide_img"><a href="#open07"><img src="/goods_img/112/design/guide-kurotiti.png" border="0" /></a></div>
+</div>
+<!--チチ色ここまで--> 
+
+<!--変形カットここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■変形カットについて</div>
+<div class="shiyou_sentaku">
+<label><input type="checkbox" class="5" id="5_1" name="goods_option_id" value="" checked="checked" />
+通常カット（標準仕様）</label><br />
+<label><input type="checkbox" class="5" id="5_2" name="goods_option_id" value="454"  />
+Rカット　<span class="bold_akamoji">1枚あたり+108円（税込）</span></label><br>
+<label><input type="checkbox" class="5" id="5_3" name="goods_option_id" value="455"  />
+Vカット　<span class="bold_akamoji">1枚あたり+108円（税込）</span></label><br>
+<label><input type="checkbox" class="5" id="5_4" name="goods_option_id" value="456"  />
+Aカット　<span class="bold_akamoji">1枚あたり+108円（税込）</span>
+<p>※変形カットをご選択の場合は、<span class="bold_akamoji">三巻縫製は出来ません。</span></p></label>
+</div>
+</div>
+<div class="guide_img"><a href="#open08"><img src="/goods_img/112/design/guide-cut.png" border="0" /></a></div>
+</div>
+<!--変形カットここまで--> 
+
+<!--三巻ここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■仕立てオプション</div>
+<div class="shiyou_sentaku">
+<label><input type="checkbox" class="2" id="2_1" name="goods_option_id" value="78" checked="checked"/>
+ほつれ防止　三方三巻縫製（標準仕様）　<span class="bold_akamoji">1枚あたり+86円（税込）</span></label><BR>
+<p>※チチ無しでほつれ防止をご希望の場合は四方三巻縫製をご選択ください。</p>
+<BR>
+<label><input type="checkbox" class="2" id="2_2" name="goods_option_id" value="133" />
+ほつれ防止　四方三巻縫製　<span class="bold_akamoji">1枚あたり+108円（税込）</span></label>
+<p>※四方三巻縫製をご選択の場合は、<span class="bold_akamoji">棒袋縫い加工は出来ません。</span></p>
+<br>
+<label><input type="checkbox" class="2" id="2_3" name="goods_option_id" value="" />
+周囲ヒートカット </label></div>
+<div id="design_title">
+<table width="374" border="0" cellpadding="6" cellspacing="2" bgcolor="#FF0000">
+<tr>
+<td width="354" colspan="3" bgcolor="#FFFFFF"><p><span class="bold_akamoji">【三巻縫製（みつまきほうせい）がおすすめ！】<br />
+2週間～長期でご利用の方は三巻縫製をお選びください。</span></p></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="guide_img"><a href="#open02"><img src="/goods_img/112/design/guide-housei.gif" border="0" /></a></div>
+</div>
+<!--三巻ここまで--> 
+
+<!--棒袋ここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■棒袋縫いオプション</div>
+<div class="shiyou_sentaku">
+<label><input type="checkbox" class="3" id="3_1" name="goods_option_id" value="" checked="checked" />
+必要ない </label><BR>
+<label><input name="goods_option_id" class="3" id="3_2" type="checkbox" value="214" />
+左辺・上辺棒袋縫い　<span class="bold_akamoji">1枚あたり+540円（税込）</span></label><BR>
+<label><input type="checkbox" class="3" id="3_3" name="goods_option_id" value="215" />
+右辺・上辺棒袋縫い　<span class="bold_akamoji">1枚あたり+540円（税込）</span></label><br />
+<br />
+<p>※三巻をご希望の場合は、三方三巻縫製をご選択下さい。（仕上がりはＬ字縫製です。）</p>
+
+</div>
+</div>
+<div class="guide_img"><a href="#open03"><img src="/goods_img/112/design/guide-fukuro.gif" border="0" /></a></div>
+</div>
+<!--棒袋ここまで--> 
+
+<!--梱包ここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■梱包オプション</div>
+<div class="shiyou_sentaku">
+<label><input type="checkbox" name="goods_option_id" value="77" />
+1枚ずつ袋入れ　<span class="bold_akamoji">1枚あたり+21円（税込）</span></label><br />
+<br />
+<p>※通常は適量で袋入れ致します。1枚のご注文の場合はチェック不要です。</p>
+</div>
+</div>
+<div class="guide_img"><img src="/goods_img/112/design/guide-konpou.gif" /></div>
+</div>
+<!--梱包ここまで--> 
+
+<!--納期ここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■納期オプション</div>
+<div class="shiyou_sentaku">
+<label><input type="checkbox" name="goods_option_id" value="129" />
+特急コース　<span class="bold_akamoji">1枚あたり+324円（税込）</span></label><br />
+<br />
+<p>※<span class="bold_akamoji">正午（PM12：00）までのご入稿を当日受付</span>の締め切りとさせて頂きます。<br />
+<span class="bold_akamoji">※特急便と通常便は、同時購入ができません。</span><br>
+※特急の場合は、銀行振込（前入金）・ＮＰ後払いはご利用頂けません。<br>
+※<span class="bold_akamoji"><A onClick="javascript:InputWindow('/goods_img/112/design/otodoke.jpg?utm_source=Souryo&utm_medium=Souryo2&utm_campaign=150604',680,680);">お届日の目安</a></span>をご参考にしてください。</p>
+</div>
+</div>
+<div class="guide_img"><a href="#open04"><img src="/goods_img/112/design/guide-nouki.gif" border="0" /></a></div>
+</div>
+<!--納期ここまで--> 
+
+<!--防炎ここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■防炎加工オプション</div>
+<div class="shiyou_sentaku">
+<label><input type="checkbox" name="goods_option_id" value="" class="6" id="6_1" checked="checked"/>
+必要なし</label><br>
+<label><input type="checkbox" name="goods_option_id" value="499" class="6" id="6_2"/>
+防炎のぼり　<span class="bold_akamoji">1枚あたり+324円（税込）</span></label><br />
+<br />
+<!--<p>※防炎加工を選択した場合、<span class="bold_akamoji">【特急便】サービスはご利用いただけません。</span></p>-->
+</div>
+</div>
+<div class="guide_img"><a href="#open09"><img src="/goods_img/112/design/guide-boen.png" border="0" /></a></div>
+</div>
+<!--防炎ここまで--> 
+
+<!--デザイン名ここから-->
+<div class="shiyou">
+<div class="shiyou_left">
+<div class="shiyou_com">■デザイン名　<span class="bold_akamoji">※入力必須です。デザインが複数ある場合は要注意！</span></div>
+<div class="shiyou_sentaku">
+<textarea name="jiyu_komoku_1"  rows="2" cols="55"></textarea>
+<input type="hidden" name="jiyu_komoku_mei_1" value="デザイン名"  />
+<div id="design_title">
+<table width="374" border="0" cellpadding="6" cellspacing="2" bgcolor="#FF0000">
+<tr>
+<td width="354" colspan="3" bgcolor="#FFFFFF"><p><span class="bold_akamoji">【デザインが複数種類ある場合】</span><br />
+複数のデザインを同時にご注文される際は、必ず「デザイン名」の欄にデザインのタイトルをご記入いただき、<span class="bold_akamoji">1種類ずつカートに入れて</span> ご注文下さい。</p></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="guide_img"><a href="#open05"><img src="/goods_img/112/design/guide-cart.gif" border="0" /></a></div>
+</div>
+<!--デザイン名ここまで--> 
+
+<div class="data_nyuko"><img src="/goods_img/112/design/guide-deta.gif" /></div>
+
+<!--購入ボタンここから-->
+<div id="cartwaku">
+<div class="cart_txt">注文枚数：　
+<input type="text" name="num" value="1" size="4" />
+枚　</div>
+　　　　　　　　
+<INPUT TYPE="hidden" VALUE="買い物カゴに入れる" >
+<input type="image" name="put_in_cart" src="/goods_img/112/design/cart-button.gif">
+</div>
+<!--購入ボタンここまで-->
+
+<!--のぼりテンプレートここから-->
+
+<div id="tepm_title"><img src="/goods_img/112/design/template_bar.gif" /></div>
+<div id="temp">
+<div id="temp_button"><a href="/official/nobori_temp/600_1800_left.zip"><img src="/goods_img/112/design/temp_left.gif" border="0" /></a></div>
+<div id="temp_button"><a href="/official/nobori_temp/600_1800_right.zip"><img src="/goods_img/112/design/temp_right.gif" border="0" /></a></div>
+<div id="temp_button"><a href="/official/nobori_temp/600_1800_non.zip"><img src="/goods_img/112/design/temp_non.gif" border="0" /></a></div>
+<div id="temp_button2"><a href="/official/nobori_temp/600_1800_fukuro.zip"><img src="/goods_img/112/design/temp_fukuro.gif" border="0" /></a></div>
+</div>
+<div id="temp">
+<div id="temp_button"><a href="/official/nobori_temp/600_1800_henkei.zip" target="_blank"><img src="/goods_img/112/design/henkei.png" border="0" /></a></div>
+<div i="temp_button"></div>
+</div>
+<div id="dataguide"><a href="/info/riyo2.html"><img src="/goods_img/112/design/nyukoguide.gif" border="0" /></a></div>
+<!--のぼりテンプレートここまで--> 
+
+
+<br style= "clear: both;">
+
+<!--のぼり仕様選択ここまで-->
+</form>
+<div id="modal">
+<div id="open01"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/shosai-titi.gif" border="0"/></a></span></div>
+<div id="open02"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/shosai-housei.gif" border="0"/></a></span></div>
+<div id="open03"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/shosai-fukuro.gif" border="0"/></a></span></div>
+<div id="open04"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/shosai-nouki.gif" border="0"/></a></span></div>
+<div id="open05"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/shosai-title.gif" border="0"/></a></span></div>
+<div id="open06"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/otodoke.jpg" border="0"/></a></span></div>
+<div id="open07"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/shosai-kurotiti.png" border="0"/></a></span></div>
+<div id="open08"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/shosai_cut.png" border="0"/></a></span></div>
+<div id="open09"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/shosai_bouen.png" border="0"/></a></span></div>
+<div id="open10"> <a href="#0" class="close_overlay">×</a> <span class="modal_window"> <a href="#0"><img src="/goods_img/112/design/60180_main08.png" border="0"/></a></span></div>
+</div>
+
+</body>
+
+<script src="/goods_img/112/js/chumon_form_script.js" charset="UTF-8"></script>
+<!-- レコメンドエンジン -->
+<script type="text/javascript">
+  itemCode = "149384"; // 商品ID
+</script>
